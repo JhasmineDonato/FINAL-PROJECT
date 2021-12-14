@@ -1,0 +1,80 @@
+body {
+	background-image: url('2.jpg');
+	background-repeat: no repeat;
+	background-attachment: fixed;
+	background-size: 100% 100%;
+}
+
+
+.main{
+    width: 100%
+    background: linear-gradient
+    background-position:  center;
+    background-size: cover;
+    height: 109vh;
+}
+  
+  .navbar{
+    width:  1200px;
+    height: 75px;
+    margin: auto;
+  } 
+
+.icon{
+  width: 150px;
+  float: left;
+  height: 5px;
+
+}
+
+.logo{
+   color: floralwhite ;
+   font-size: 40px;
+   font-family: monospace;
+   padding left: 15px ;
+   float: left;
+   padding-top: 15px;
+}
+
+.menu {
+  width: 400px;
+  float: center;
+  height: 180px;
+}
+
+ul{
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 150px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a{
+  text-decoration: none;
+  color: floralwhite;
+  font-family: arial;
+  font-weight: bold;
+  transition: 0.4s ease in out;
+
+}
+
+ul li a:hover{
+  color: mediumseagreen ;
+}
+
+.center {
+	display: flex;
+	height: 300px;
+	justify-content: center;
+	color: antiquewhite;
+	font-weight: bold;
+}
+
+
